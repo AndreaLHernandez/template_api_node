@@ -1,6 +1,6 @@
 require("dotenv").config(); // Módulo que carga variables de entorno desde un archivo .env a process.env
 
-//Sustituir valores de host, user, name, password con los process.env una vez que tengamos el archivo .env con los valores a sustituir
+//Sustituir valores de host, user, name, password con los process.env una vez que tengamos el archivo .env con los valores a sustituir agregadas
 module.exports = {
   PORT: process.env.port || 5000,
   DB: {
